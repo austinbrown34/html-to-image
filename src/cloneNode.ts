@@ -65,7 +65,7 @@ async function decorate(
 function cloneCssStyle(nativeNode: HTMLElement, clonedNode: HTMLElement) {
   const source = window.getComputedStyle(nativeNode)
   if (isRoot){
-      clonedNode.style.setProperty('margin', 0);
+      clonedNode.style.setProperty('margin', '0');
   }
   const target = clonedNode.style
 
